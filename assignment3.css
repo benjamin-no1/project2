@@ -1,0 +1,111 @@
+*{
+    font-family: sans-serif  ;
+    margin: 0;
+    box-sizing: border-box;
+}
+.firstdiv{
+    text-align: center;
+    background-color: rgb(216, 241, 241);
+    height: 350px;
+    position: relative;
+.firsth1{
+ font-family: pacifico;
+ height: 100px;
+ font-size: 50px;
+} 
+
+}
+#mountain{
+    height: 180px;
+    position: absolute;
+    bottom: 5px;
+    left: 480px;
+}
+#cloud1{
+    height: 20px;
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+    
+}
+#cloud2{
+    height: 20px;
+    position: relative;
+    left: 250px;
+    bottom: 90px;
+}
+
+#yanivpic{
+    border-radius: 100%;
+    height: 90px;
+}
+.seconddiv{
+    text-align: center;
+    margin-top: 50px;
+}
+.writingandresearch{
+    width:50%;
+  margin: 100px auto 100px auto;
+}
+#pencil{
+    width:25%;
+    margin-right: 30px;
+}
+.teaching{
+    width:50%;
+    margin: 150px auto 100px auto;
+    margin-bottom: 40px;
+}
+#class{
+    float: right;
+    margin-bottom: 60px;
+    border-radius: 100%;
+}
+.translation{
+    width:50%;
+    margin: 150px auto 100px auto;
+}
+#subject{
+    float: left;
+    border-radius: 100%;  
+ }
+.fourthdiv{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: lightseagreen;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pencil{
+    float: left;
+    
+}
+h1, h2, h3{
+    color: lightseagreen;
+} 
+a.contactbutton:link, a.contactbutton:visited {
+    background-color: lightseagreen;
+    color: white ;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    border: 3px solid white;
+    margin-top: 20px;
+}
+.p1{
+    color: lightseagreen;
+}
+@media screen and (max-width:768px) {
+
+    #mountain{
+        height: 60px;
+        margin-right: 400px;
+    }
+}
